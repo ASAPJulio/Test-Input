@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Test Input</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Css-pour-input.css" />
+  </head>
+  <body>
+    <form>
+      <h1><u>Formulaire général</u></h1>
+      <p>
+        <label for="question">Qu'avez-vous mangé aujourd'hui?</label>
+        <input
+          type="text"
+          name="question"
+          id="question"
+          placeholder="Par ex : du cassoulet"
+          size="50"
+          maxlength="38"
+        />
+      </p>
+      <p>
+        <label for="apresmidi"
+          >Racontez nous votre après-midi! Qu'avez-vous fait?</label
+        ><br />
+        <textarea
+          rows="20"
+          cols="50"
+          name="apresmidi"
+          id="apresmidi"
+          placeholder="Par ex : Aujourd'hui j'ai fait du cheval"
+        ></textarea>
+      </p>
+      <label for="tacos"
+        >Quel choix préférez-vous? (plusieurs choix possibles)</label
+      >
+      <input type="checkbox" name="tacos" id="tacos" /><label for="tacos"
+        >Tacos</label
+      >
+      <input type="checkbox" name="salade" id="salade" /><label for="salade"
+        >Salade</label
+      >
+      <input type="checkbox" name="pates" id="pates" /><label for="pates"
+        >Pates</label
+      >
+      <p>
+        <label for="age">Quel âge avez-vous?</label>
+        <select name="age" id="age">
+          <option value="">SVP choisissez une option</option>
+          <option value="18ans">18 ans</option>
+          <option value="19ans">19 ans</option>
+          <option value="20ans">20 ans</option>
+          <option value="plus">Plus..?</option>
+        </select>
+      </p>
+      <h1>Le questionnaire est terminé, félicitations!</h1>
+      <br />
+    </form>
+    <iframe
+      width="916"
+      height="515"
+      src="https://www.youtube.com/embed/k3oiXn1iTxE"
+      title="BRAVO meme"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
